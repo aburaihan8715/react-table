@@ -9,7 +9,7 @@ import MOCK_DATA from './MOCK_DATA.json';
 import { GROUP_COLUMNS } from './columns';
 import './table.css';
 
-const TableColumnGroup = () => {
+const HeaderGroupTable = () => {
   const columns = useMemo(() => GROUP_COLUMNS, []);
   const data = useMemo(() => MOCK_DATA, []);
 
@@ -68,4 +68,4 @@ const TableColumnGroup = () => {
   );
 };
 
-export default TableColumnGroup;
+export default HeaderGroupTable;

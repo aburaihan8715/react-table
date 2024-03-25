@@ -20,9 +20,9 @@ export const COLUMNS = [
     header: 'Date of Birth',
     footer: 'Date of Birth',
   }),
-  columnHelper.accessor('country', {
-    header: 'Country',
-    footer: 'Country',
+  columnHelper.accessor('age', {
+    header: 'Age',
+    footer: 'Age',
   }),
   columnHelper.accessor('phone', {
     header: 'Phone',
@@ -58,9 +58,9 @@ export const GROUP_COLUMNS = [
         footer: 'Date of Birth',
         cell: ({ getValue }) => format(new Date(getValue()), 'dd/MM/yyyy'),
       }),
-      columnHelper.accessor('country', {
-        header: 'Country',
-        footer: 'Country',
+      columnHelper.accessor('age', {
+        header: 'Age',
+        footer: 'Age',
       }),
       columnHelper.accessor('phone', {
         header: 'Phone',

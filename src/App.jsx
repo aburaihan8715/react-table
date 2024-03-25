@@ -1,14 +1,18 @@
 // import BasicTable from './components/BasicTable';
-// import TableColumnGroup from './components/TableColumnGroup';
+// import HeaderGroupTable from './components/HeaderGroupTable';
+// import SortingTable from './components/SortingTable';
+// import GlobalFilterTable from './components/GlobalFilterTable';
 
-import TableSorting from './components/TableSorting';
+import ColumnFilterTable from './components/ColumnFilterTable';
 
 const App = () => {
   return (
     <div>
       {/* <BasicTable /> */}
-      {/* <TableColumnGroup /> */}
-      <TableSorting />
+      {/* <HeaderGroupTable /> */}
+      {/* <SortingTable /> */}
+      {/* <GlobalFilterTable /> */}
+      <ColumnFilterTable />
     </div>
   );
 };
