@@ -42,11 +42,7 @@ const GlobalFilterTable = () => {
         globalFilter={globalFilter}
         setGlobalFilter={setGlobalFilter}
       />
-      {/* <DebouncedInput
-        value={globalFilter ?? ''}
-        onChange={(value) => setGlobalFilter(String(value))}
-        placeholder="Search all columns..."
-      /> */}
+
       <table>
         <thead>
           {getHeaderGroups().map((headerGroup) => (

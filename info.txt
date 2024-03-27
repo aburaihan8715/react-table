@@ -1,0 +1,1 @@
+// 1. Sticky column is not implemented, cause version changing

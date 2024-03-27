@@ -19,6 +19,7 @@ export const COLUMNS = [
   columnHelper.accessor('date_of_birth', {
     header: 'Date of Birth',
     footer: 'Date of Birth',
+    cell: ({ getValue }) => format(new Date(getValue()), 'dd/MM/yyyy'),
   }),
   columnHelper.accessor('age', {
     header: 'Age',
