@@ -3,7 +3,9 @@
 // import SortingTable from './components/SortingTable';
 // import GlobalFilterTable from './components/GlobalFilterTable';
 
-import ColumnFilterTable from './components/ColumnFilterTable';
+import PaginationTable from './components/PaginationTable';
+
+// import ColumnFilterTable from './components/ColumnFilterTable';
 
 const App = () => {
   return (
@@ -12,7 +14,8 @@ const App = () => {
       {/* <HeaderGroupTable /> */}
       {/* <SortingTable /> */}
       {/* <GlobalFilterTable /> */}
-      <ColumnFilterTable />
+      {/* <ColumnFilterTable /> */}
+      <PaginationTable />
     </div>
   );
 };

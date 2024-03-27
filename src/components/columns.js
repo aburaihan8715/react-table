@@ -38,6 +38,8 @@ export const GROUP_COLUMNS = [
       columnHelper.accessor('id', {
         header: 'Id',
         footer: 'Id',
+        enableSorting: false,
+        enableColumnFilter: false,
       }),
       columnHelper.accessor('first_name', {
         header: 'First Name',
